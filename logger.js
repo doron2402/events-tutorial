@@ -1,7 +1,7 @@
 'use strict';
 
 const EventEmitter = require('events');
-const 
+const http = require('http');
 class Logger extends EventEmitter {
   constructor({
     protocol = 'http', 
@@ -17,6 +17,11 @@ class Logger extends EventEmitter {
     this.port = port;
     this.path = path;
     this.method = method;
+    this.options = {
+      port: port,
+      hostname: host,
+      method: this.method 
+    }
   }
 }
 
