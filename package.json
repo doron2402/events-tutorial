@@ -1,0 +1,16 @@
+{
+  "name": "events-tutorial",
+  "version": "1.0.0",
+  "description": "Node.js Events one of the core api features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "events",
+    "eventEmitter"
+  ],
+  "author": "Doron Segal <doron2402@gmail.com>",
+  "license": "ISC"
+}
